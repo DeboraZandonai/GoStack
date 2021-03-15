@@ -2,41 +2,41 @@
 
 ![Badge](/github/logo.png)
 
-## 💻 Proposta do projeto
+## 💻 Project proposal
 
-Objetivo deste repositório será colocar todos os projetos, desafios e aprendizado passado durante o curso Gostack da Rocketseat.
+The purpose of this repository will be to place all the projects, challenges and past learning during the Rocketseat Gostack course.
 
-## 🧭 Índice
+## 🧭 Index
 
-- [Desafios](./Desafios)
+- [Challenges](./Desafios)
 - [Backend](./Backend)
 - [Frontend](./Frontend)
 - [Mobile](./Mobile)
 - [Typescript](./Typescript)
 
 <h2>
-  📌 Para ter uma cópia do projeto
+  📌 To have a copy of the project
 </h2>
 
-### Clone o repositório para ter uma cópia do código em sua máquina
+### Clone the repository to have a copy of the code on your machine
 
 ```bash
 $ git clone hhttps://github.com/DeboraZandonai/GoStack.git
 ```
 
-### Navegue até a pasta do projeto e substitua o campo caminho pelo projeto que deseja visualizar 
+### Navigate to the project folder and replace the path field with the project you want to view
 
 ```bash
-$ cd GoStack/caminho
+$ cd GoStack/path
 ```
 
-### Carregue as dependências
+### Load dependencies
 
 ```bash
 $ npm install
 ```
 
-### Rode o projeto
+### Run the project
 
 ```bash
 $ npm start
@@ -44,6 +44,6 @@ $ npm start
 
 ## 📝 Licença
 
-Este projeto encontra-se sob a licença **MIT**. Para mais informações, acesse o arquivo [LICENSE](https://github.com/DeboraZandonai/GoStack/blob/master/LICENSE).
+This project is under the **MIT** license. For more information, access the file [LICENSE](https://github.com/DeboraZandonai/GoStack/blob/master/LICENSE).
 
 <h4 align=center>Made with ❤️ by <a href="https://www.linkedin.com/in/debora-zandonai-4ab092195/">Debora Zandonai</a></h4>
