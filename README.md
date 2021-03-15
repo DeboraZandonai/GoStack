@@ -44,6 +44,6 @@ $ npm start
 
 ## 📝 Licença
 
-Este projeto encontra-se sob a licença **MIT**. Para mais informações, acesse o arquivo [LICENSE](https://github.com/DeboraZandonai/GoStack/blob/master/LICENSE)..
+Este projeto encontra-se sob a licença **MIT**. Para mais informações, acesse o arquivo [LICENSE](https://github.com/DeboraZandonai/GoStack/blob/master/LICENSE).
 
 <h4 align=center>Made with ❤️ by <a href="https://www.linkedin.com/in/debora-zandonai-4ab092195/">Debora Zandonai</a></h4>
