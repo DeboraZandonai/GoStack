@@ -10,23 +10,14 @@ function App() {
   ]);
 
   useEffect(() => {
-    api.get("projects").then((response) => {
-      setProjects(response.data);
-      console.log(response);
-    });
+    api.get("projects").then(({ data }) => setProjects(data));
   }, []);
 
   async function handleAddProject() {
-    //projects.push(`Novo projeto ${Date.now()}`);
-
-    //setProjects([...projects, `Novo projeto ${Date.now()}`]);
-
-    const response = await api.post("projects", {
+    const { data: project } = await api.post("projects", {
       title: `Novo projeto ${Date.now()}`,
       Owner: "Debora Zandonai",
     });
-
-    const project = response.data;
 
     setProjects([...projects, project]);
   }
@@ -35,8 +26,8 @@ function App() {
       <Header title="Teste 1" />
 
       <ul>
-        {projects.map((project) => (
-          <li key={project.id}>{project.title}</li>
+        {projects && projects.map(({ id, title }) => (
+          <li key={id}>{title}</li>
         ))}
       </ul>
 
